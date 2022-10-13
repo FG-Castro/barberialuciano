@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2? family= Cabin:wght@700 & family= Ravi+Prakash & display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+    .cuerpo{
+        background-color: rgb(199, 199, 199);
+    }
+    .titulo{
+        font-family: 'Cabin', sans-serif;
+        margin-bottom: 0;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:#212529
+        ;
+    }
+    .tabla{
+        margin: 1.5rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    .adultos, .jovenes, .niños{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .fotos{
+        width: 95%;
+        height: 500px;
+        border-radius: 20px;
+    }
+    .subtit{
+        font-family: 'Cabin', sans-serif;
+        font-size: 20px;
+        font-style: solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .direccion{
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
